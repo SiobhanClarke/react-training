@@ -1,0 +1,89 @@
+:root {
+    --charcoal: #282c34;
+    --ocean-blue: #61dafb;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--charcoal);
+}
+
+.code-block {
+    padding: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    padding: 3rem 1rem 0rem;
+    color: var(--white);
+    align-content: center;
+}
+
+.title {
+    color: var(--ocean-blue);
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.sub-title {
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+}
+
+.info {
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    padding: 5px;
+    border-radius: 4px;
+    border-color: crimson;
+    background-color: crimson;
+}
+
+.padding {
+    padding: 5px;
+}
+
+.repo-card-title {
+    font-weight: bold;
+    display: contents;
+    color: var(--ocean-blue);
+}
+
+.cards {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 3px;
+}
+
+.card {
+    font-size: 12px;
+    color: var(--charcoal);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+    border: solid 3px var(--ocean-blue);
+}
+
+@media only screen and (max-width: 768px) {
+    .cards {
+        display: block;
+        text-align: center;
+    }
+}
