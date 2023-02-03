@@ -1,0 +1,17 @@
+{
+  "name": "react-training",
+  "version": "2.0.0",
+  "description": "Training material for react development.",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm install && cd playground && npm install",
+    "playground": "cd playground && npm run start"
+  },
+  "repository": {
+    "url": "git@scm.server.traveljigsaw.com:tech-returners/react-training.git",
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
