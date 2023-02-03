@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# React Training
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
 
-## Available Scripts
+Navigate in to project workspace to clone this repository
 
-In the project directory, you can run:
+```
+git clone git@scm.server.traveljigsaw.com:tech-returners/react-training.git
+cd react-training
+```
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Install the dependencies for the react playground and run the playground. Please note that `npm run init` is a custom script that installs all the dependencies required by React in the `playground` directory.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+npm run init
+npm run playground
+```
 
-### `npm test`
+You should see a webpage open in your default browser on http://localhost:3000/ like this
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![playground](../assets/react-playground.png)
 
-### `npm run build`
+## Running the playground
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Replace the `/src` directory in the `/playground` folder with the `/src` directory from either the challenges or the concepts (depending on what you want to run in the playground)
+- Open your terminal and make sure you are in the root directory of the react-training project (entry directory of this repository)
+- Run the following command in the terminal `npm run playground` and you should see your React application open in http://localhost:3000/
+- If you want to stop the playground, in the terminal press (CTRL + C)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Course Curriculum
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Week 01
 
-### `npm run eject`
+#### Day 01
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Introduction to React
+- Adding React to an existing website
+- DOM and React virtual DOM
+- create-react-app script
+- What is JSX
+- Function-based components
+- Using React Dev Tools
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Day 02
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Props
+- What is prop drilling
+- Render many components via props
+- Importance of key in rendering many
+- Conditional render
+- GitHub directory challenge
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Week 02
 
-## Learn More
+Coming Soon
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Recordings
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Week 01 Day 01](https://booking.zoom.us/rec/share/JlbBPKOVBtM1oU-QqPzPQqeipOiUzinTmkxrKxQyaprqT8dgNGPTFTJUZWr85Rtc.zAKuqIsjmY7U4sGj) **Passcode: Z586me&C**
+- [Week 01 Day 02](https://booking.zoom.us/rec/share/1Yi3nIbuka-Hi3Hhgb_9O2nTZGAiyHE-QFlZIaEw1vEbsTXA64Gf2wX7WYP87uuc.EmyYunlOs9ioX5Ej) **Passcode: Rs7pJn\*9**
